@@ -11,11 +11,18 @@ layout: page
   </h1>
   <ul class="post-content pl-0">
     {% for post in page.posts %}
+    
     <li class="d-flex justify-content-between pl-md-3 pr-md-3">
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
       <span class="dash flex-grow-1"></span>
       {% include datetime.html date=post.date wrap='span' class='text-muted small' %}
     </li>
+    {% if post.summary %}
+      <div class=" summary customer-summary">
+        <p>{{ post.summary }}</p>
+      </div>
+    {% endif %}
+
     {% endfor %}
   </ul>
 </div>

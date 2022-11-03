@@ -96,6 +96,12 @@ tail_includes:
 
 </div> <!-- .post-meta -->
 
+{% if page.summary %}
+  <div class="summary">
+    <p>{{ page.summary }}</p>
+  </div>
+{% endif %}
+
 <div class="post-content">
   {{ content }}
 </div>

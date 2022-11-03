@@ -2,8 +2,10 @@
 title: Writing a New Post
 author: cotes
 date: 2019-08-08 14:10:00 +0800
-categories: [Blogging, Tutorial]
+categories: [Cust1]
 tags: [writing]
+summary: >
+  This is a different summary of this meeting and what it was for.
 render_with_liquid: false
 ---
 

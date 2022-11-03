@@ -2,10 +2,12 @@
 title: Text and Typography
 author: cotes
 date: 2019-08-08 11:33:00 +0800
-categories: [Blogging, Demo]
+categories: [Cust1]
 tags: [typography]
 math: true
 mermaid: true
+summary: >
+  This is a summary of this meeting and what it was for.
 image:
   path: /commons/devices-mockup.png
   width: 800

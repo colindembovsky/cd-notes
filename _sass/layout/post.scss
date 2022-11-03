@@ -367,3 +367,19 @@ nav[data-toggle="toc"] {
     border-radius: 0;
   }
 }
+
+.summary {
+  font-style: italic;
+}
+
+.customer-summary {
+  float:left;
+  display:block;
+  width:100%;
+  text-align: right;
+  padding: 0 20px 0 40px;
+}
+
+.archive-summary {
+  margin-left: 102px;
+}
